@@ -18,11 +18,11 @@ public class StudentService {
     public Student add(Student student){
         return  repository.save(student);
     }
-    /*public List<Student> getAll(){
+    public List<Student> getAll(){
         return repository.findAll();
     }
 
     public void delete(Long id){
         repository.deleteById(id);
-    }*/
+    }
 }

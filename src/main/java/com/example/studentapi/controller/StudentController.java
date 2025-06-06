@@ -20,7 +20,7 @@ public class StudentController {
     public Student addStudent(@RequestBody Student student){
         return service.add(student);
     }
-   /* @GetMapping
+    @GetMapping
     public List<Student> getAll(){
         return service.getAll();
     }
@@ -28,5 +28,5 @@ public class StudentController {
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id){
         service.delete(id);
-    }*/
+    }
 }
